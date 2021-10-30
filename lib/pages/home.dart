@@ -1,7 +1,7 @@
-import 'package:flappwritechat/models/channel.dart';
-import 'package:flappwritechat/widgets/channels_list.dart';
-import 'package:flappwritechat/widgets/chat_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:flappwritechat/models/channel.dart';
+import 'package:flappwritechat/widgets/chat_widget.dart';
+import 'package:flappwritechat/widgets/channels_list.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 class HomePage extends StatefulWidget {

@@ -1,7 +1,7 @@
-/**
- * Author: Damodar Lohani
- * profile: https://github.com/lohanidamodar
-  */
+// /**
+//  * Author: Damodar Lohani
+//  * profile: https://github.com/lohanidamodar
+//   */
 
 import 'package:flappwritechat/models/channel.dart';
 import 'package:flappwritechat/widgets/chat_widget.dart';

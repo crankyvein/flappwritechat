@@ -1,6 +1,5 @@
-import 'package:flappwritechat/services/api_service.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flappwritechat/services/api_service.dart';
 
 class SignupPage extends StatefulWidget {
   @override

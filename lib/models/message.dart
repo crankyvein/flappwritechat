@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 class Message {
-  final String content;
   final String id;
+  final String content;
   final String senderId;
   final String senderName;
   Message({

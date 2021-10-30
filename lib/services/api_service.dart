@@ -1,14 +1,14 @@
-import 'package:appwrite/appwrite.dart';
 import 'package:appwrite/models.dart';
-import 'package:flappwritechat/models/channel.dart';
+import 'package:appwrite/appwrite.dart';
 import 'package:flappwritechat/res/constants.dart';
+import 'package:flappwritechat/models/channel.dart';
 
 class ApiService {
-  final Client client = Client();
-  late Account account;
   late Database db;
+  late Account account;
   late Realtime realtime;
   static ApiService? _instance;
+  final Client client = Client();
 
   ApiService._internal() {
     client
